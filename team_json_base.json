@@ -1,0 +1,25 @@
+{
+	"@type": "MessageCard",
+	"@context": "http://schema.org/extensions",
+	"themeColor": "0076D7",
+	"summary": "New task created",
+	"sections": [{
+		"activityTitle": "",
+		"facts": [{
+			"name": "Issue",
+			"value": ""
+		}, {
+			"name": "Summary",
+			"value": ""
+		}],
+		"markdown": true
+	}],
+	"potentialAction": [{
+		"@type": "OpenUri",
+		"name": "Open in Jira",
+		"targets": [{
+			"os": "default",
+			"uri": ""
+		}]
+	}]
+}
